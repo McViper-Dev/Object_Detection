@@ -1,0 +1,65 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\C#\\Projects\\Object Detection\\Object Detection.csproj": {}
+  },
+  "projects": {
+    "D:\\C#\\Projects\\Object Detection\\Object Detection.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\C#\\Projects\\Object Detection\\Object Detection.csproj",
+        "projectName": "Object Detection",
+        "projectPath": "D:\\C#\\Projects\\Object Detection\\Object Detection.csproj",
+        "packagesPath": "C:\\Users\\wesle\\.nuget\\packages\\",
+        "outputPath": "D:\\C#\\Projects\\Object Detection\\obj\\",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\wesle\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net472"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net472": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "net472": {
+          "dependencies": {
+            "Alturos.Yolo": {
+              "target": "Package",
+              "version": "[2.6.1, )"
+            },
+            "Alturos.YoloV2TinyVocData": {
+              "target": "Package",
+              "version": "[1.0.0, )"
+            }
+          }
+        }
+      },
+      "runtimes": {
+        "win": {
+          "#import": []
+        },
+        "win-x64": {
+          "#import": []
+        },
+        "win-x86": {
+          "#import": []
+        }
+      }
+    }
+  }
+}

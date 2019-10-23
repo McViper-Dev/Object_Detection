@@ -1,0 +1,190 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETFramework,Version=v4.7.2": {
+      "Alturos.Yolo/2.6.1": {
+        "type": "package",
+        "compile": {
+          "lib/net461/Alturos.Yolo.dll": {}
+        },
+        "runtime": {
+          "lib/net461/Alturos.Yolo.dll": {}
+        },
+        "build": {
+          "build/net461/Alturos.Yolo.targets": {}
+        }
+      },
+      "Alturos.YoloV2TinyVocData/1.0.0": {
+        "type": "package",
+        "build": {
+          "build/net46/Alturos.YoloV2TinyVocData.targets": {}
+        }
+      }
+    },
+    ".NETFramework,Version=v4.7.2/win": {
+      "Alturos.Yolo/2.6.1": {
+        "type": "package",
+        "compile": {
+          "lib/net461/Alturos.Yolo.dll": {}
+        },
+        "runtime": {
+          "lib/net461/Alturos.Yolo.dll": {}
+        },
+        "build": {
+          "build/net461/Alturos.Yolo.targets": {}
+        }
+      },
+      "Alturos.YoloV2TinyVocData/1.0.0": {
+        "type": "package",
+        "build": {
+          "build/net46/Alturos.YoloV2TinyVocData.targets": {}
+        }
+      }
+    },
+    ".NETFramework,Version=v4.7.2/win-x64": {
+      "Alturos.Yolo/2.6.1": {
+        "type": "package",
+        "compile": {
+          "lib/net461/Alturos.Yolo.dll": {}
+        },
+        "runtime": {
+          "lib/net461/Alturos.Yolo.dll": {}
+        },
+        "build": {
+          "build/net461/Alturos.Yolo.targets": {}
+        }
+      },
+      "Alturos.YoloV2TinyVocData/1.0.0": {
+        "type": "package",
+        "build": {
+          "build/net46/Alturos.YoloV2TinyVocData.targets": {}
+        }
+      }
+    },
+    ".NETFramework,Version=v4.7.2/win-x86": {
+      "Alturos.Yolo/2.6.1": {
+        "type": "package",
+        "compile": {
+          "lib/net461/Alturos.Yolo.dll": {}
+        },
+        "runtime": {
+          "lib/net461/Alturos.Yolo.dll": {}
+        },
+        "build": {
+          "build/net461/Alturos.Yolo.targets": {}
+        }
+      },
+      "Alturos.YoloV2TinyVocData/1.0.0": {
+        "type": "package",
+        "build": {
+          "build/net46/Alturos.YoloV2TinyVocData.targets": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Alturos.Yolo/2.6.1": {
+      "sha512": "vNil3H6brcMSSpQYb0woktCXtEweNCQCsQYnZEi0OIQEOW9rVUkXrvvJSkou8ChXH+znPsnXhi4B1xwyFG6TKQ==",
+      "type": "package",
+      "path": "alturos.yolo/2.6.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "alturos.yolo.2.6.1.nupkg.sha512",
+        "alturos.yolo.nuspec",
+        "build/net461/Alturos.Yolo.targets",
+        "build/x64/msvcr100.dll",
+        "build/x64/opencv_world411.dll",
+        "build/x64/pthreadGC2.dll",
+        "build/x64/pthreadVC2.dll",
+        "build/x64/yolo_cpp_dll_cpu.dll",
+        "build/x64/yolo_cpp_dll_gpu.dll",
+        "lib/net461/Alturos.Yolo.dll",
+        "lib/net461/Alturos.Yolo.xml",
+        "readme.txt"
+      ]
+    },
+    "Alturos.YoloV2TinyVocData/1.0.0": {
+      "sha512": "TDNXHlfOjDjZbNb1OE/ukJg+zlvKPuI+uTU601sRZz94VqT4lAPwT30oW7/tSB505v8wW3BJbq8Likr4y2XM+A==",
+      "type": "package",
+      "path": "alturos.yolov2tinyvocdata/1.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "alturos.yolov2tinyvocdata.1.0.0.nupkg.sha512",
+        "alturos.yolov2tinyvocdata.nuspec",
+        "build/net46/Alturos.YoloV2TinyVocData.targets",
+        "build/net46/voc.names",
+        "build/net46/yolov2-tiny-voc.cfg",
+        "build/net46/yolov2-tiny-voc.weights"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETFramework,Version=v4.7.2": [
+      "Alturos.Yolo >= 2.6.1",
+      "Alturos.YoloV2TinyVocData >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\wesle\\.nuget\\packages\\": {},
+    "C:\\Microsoft\\Xamarin\\NuGet\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "D:\\C#\\Projects\\Object Detection\\Object Detection.csproj",
+      "projectName": "Object Detection",
+      "projectPath": "D:\\C#\\Projects\\Object Detection\\Object Detection.csproj",
+      "packagesPath": "C:\\Users\\wesle\\.nuget\\packages\\",
+      "outputPath": "D:\\C#\\Projects\\Object Detection\\obj\\",
+      "projectStyle": "PackageReference",
+      "skipContentFileWrite": true,
+      "fallbackFolders": [
+        "C:\\Microsoft\\Xamarin\\NuGet\\"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\wesle\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net472"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net472": {
+          "projectReferences": {}
+        }
+      }
+    },
+    "frameworks": {
+      "net472": {
+        "dependencies": {
+          "Alturos.Yolo": {
+            "target": "Package",
+            "version": "[2.6.1, )"
+          },
+          "Alturos.YoloV2TinyVocData": {
+            "target": "Package",
+            "version": "[1.0.0, )"
+          }
+        }
+      }
+    },
+    "runtimes": {
+      "win": {
+        "#import": []
+      },
+      "win-x64": {
+        "#import": []
+      },
+      "win-x86": {
+        "#import": []
+      }
+    }
+  }
+}
